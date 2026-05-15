@@ -5,10 +5,11 @@ A small project to practice uploading assets to Cloudinary and handling overwrit
 ## Prerequisites
 
 1. A free Cloudinary account
-2. Your Cloudinary URL from your dashboard and add your URL to `.env`
-3. Review the [overwrite documentation](https://cloudinary.com/documentation/image_upload_api_reference#upload_optional_parameters)
-4. Open the terminal to run the files and view the logged result
-5. Open you asset library by logging in to your Cloudinary account to view the result of running each step
+2. Your Cloudinary URL from your dashboard, and add your URL to a `.env` file
+3. Install the dependencies w/ `npm install`
+4. Review the [overwrite documentation](https://cloudinary.com/documentation/image_upload_api_reference#upload_optional_parameters)
+5. Open the terminal to run the files and view the logged result
+6. Open your asset library by logging in to your Cloudinary account to view the result of running each step
 
 ## Steps
 
@@ -16,7 +17,7 @@ A small project to practice uploading assets to Cloudinary and handling overwrit
 
 ### #1
 
-Using the provided image in `app.js` , upload the file with the following parameters:
+Using the provided image in `app.js`, upload the file with the following parameters:
 
 1. Set the public_id parameter to `"highland_cow"`
 2. Set the overwrite parameter to `true`
@@ -25,7 +26,7 @@ Using the provided image in `app.js` , upload the file with the following parame
 
 Run the file again to upload the look for `existing: true` in the logged response.
 
-`existing: true` means the binary matches so an overwrite of the file was not necessary.
+`existing: true` means the binary matches, so an overwrite of the file was not necessary.
 
 ### #3
 
